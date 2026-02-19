@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print variable
-        run: echo balu, "${{vars.MY_NAME}}"
+        run: echo balu,"${{vars.MY_NAME}}"
